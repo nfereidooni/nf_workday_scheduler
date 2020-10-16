@@ -1,16 +1,16 @@
 // Current Date
 
-let currentDate = moment().format('dddd, MMMM Do');
-// $("#currentDay").text(currentDate);
-// currentDay = document.getElementById("currentDay");
-console.log(currentDate)
-// currentDay.innerHTML = currentDate
 
+let currentDate = moment().format('dddd, MMMM Do');
+console.log(currentDate)
+document.getElementById("currentDay").innerHTML = currentDate
 
 // Current Hour
 
-let currentHour = parseInt(m().format("H"));
+let currentHour = parseInt(moment().format("H"));
+console.log(currentHour)
 
 // Array for Events
 
 let savedEvents = [];
+
