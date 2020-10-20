@@ -44,14 +44,15 @@ function timeColouring(){
 
 function saveEvent(btnElement) {
     let num = btnElement.id.split("-")[1]
-    let text = document.querySelector(`#hour-${num}`).value
-    localStorage.setItem(`#hour-${num}`, text)
+    let text = $('#hour-' + num).val()
+    localStorage.setItem('#hour-' + num, text)
+    let temp;
 }
 
 // Retrieve/Display Event Function
   
   function displayEvent() {
-    for (var i = 0; i < hourList.length; i++){  
+    for (let i = 0; i < hourList.length; i++){  
     document.querySelector(`#hour-${hourList[i]}`).value = localStorage.getItem(`#hour-${hourList[i]}`)
     }
   }
