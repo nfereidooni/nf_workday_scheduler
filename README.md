@@ -1,5 +1,7 @@
 # Work Day Scheduler
 
+[**Live Deployment**](https://nfereidooni.github.io/nf_workday_scheduler/)
+
 ## Description 
 
 The goal of this project was to create a simple calendar application that allows the user to save events for each hour of the day. The app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
